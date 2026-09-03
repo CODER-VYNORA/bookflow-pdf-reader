@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* PDF.js text layer adjustments */
+.textLayer {
+  position: absolute;
+  text-align: initial;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  opacity: 1;
+  line-height: 1;
+  text-size-adjust: none;
+  forced-color-adjust: none;
+  transform-origin: 0 0;
+  z-index: 5;
+}
+
+.textLayer ::selection {
+  background: rgba(165, 180, 252, 0.45);
+}
+
+.textLayer span {
+  color: transparent;
+  position: absolute;
+  white-space: pre;
+  cursor: text;
+  transform-origin: 0 0;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+/* Mobile/tablet reading surface */
+html, body, #root { min-height: 100%; }
+body { margin: 0; overscroll-behavior: none; }
+button, input, textarea { -webkit-tap-highlight-color: transparent; }
+.reader-surface { touch-action: pan-y; overscroll-behavior: contain; }
+@media (max-width: 767px) {
+  .textLayer span { font-size: inherit; }
+  .textLayer { -webkit-user-select: text; user-select: text; }
+}
+
+/* Respect devices with a display cutout / home indicator when installed as a PWA. */
+@supports (padding: env(safe-area-inset-bottom)) {
+  .pwa-safe-bottom { padding-bottom: env(safe-area-inset-bottom); }
+}

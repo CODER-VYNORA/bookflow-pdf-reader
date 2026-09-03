@@ -1,0 +1,6 @@
+{
+  "name": "Interactive PDF Book Reader",
+  "description": "A modern, realistic digital physical book reader for PDFs with natural touch/drag page turning, persistent IndexedDB library, bookmarks, and text highlighting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
