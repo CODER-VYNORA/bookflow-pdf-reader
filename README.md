@@ -1,6 +1,6 @@
-# BookFlow — Local-first Interactive PDF Book Reader
+# DINU RAATO KE READER💀🤫 — Local-first Interactive PDF Book Reader
 
-BookFlow is a responsive PDF reader designed to feel like a physical book while keeping your library and annotations in the browser.
+DINU RAATO KE READER💀🤫 is a responsive PDF reader designed to feel like a physical book while keeping your library and annotations in the browser.
 
 ## What is included
 - PDF library stored in IndexedDB (the PDF Blob is stored locally).
@@ -10,7 +10,7 @@ BookFlow is a responsive PDF reader designed to feel like a physical book while 
 - Desktop automatic two-page spread; mobile/tablet single-page reading.
 - Paper / cream / dark reader themes and zoom.
 - Searchable highlights and bookmarks.
-- PWA install support: install BookFlow on Android, iPad/iPhone, Windows, macOS and supported tablets/desktops.
+- PWA install support: install DINU RAATO KE READER💀🤫 on Android, iPad/iPhone, Windows, macOS and supported tablets/desktops.
 - Offline app shell and local PDF.js CMaps after the first successful load.
 - Optional Gemini AI drawer remains available when its server/API is configured; the core library does not need an account or cloud database.
 
@@ -50,7 +50,7 @@ The production files are in `dist/`.
 
 ## Install on a phone/tablet
 
-BookFlow is a **PWA**, not an APK. Once deployed over HTTPS:
+DINU RAATO KE READER💀🤫 is a **PWA**, not an APK. Once deployed over HTTPS:
 
 - Android Chrome/Edge: open the site and choose **Install app** / **Add to Home screen**.
 - iPhone/iPad Safari: Share → **Add to Home Screen**.
@@ -60,7 +60,7 @@ After installation, the app opens like a normal app and its PDF library stays in
 
 ## Important storage behavior
 
-PDF files are stored locally in IndexedDB. Browser storage quotas vary by browser/device; BookFlow reads the browser's storage estimate when available and handles quota errors.
+PDF files are stored locally in IndexedDB. Browser storage quotas vary by browser/device; DINU RAATO KE READER💀🤫 reads the browser's storage estimate when available and handles quota errors.
 
 ## AI
 

@@ -1,4 +1,4 @@
-const CACHE = 'bookflow-shell-v2';
+const CACHE = 'DINU RAATO KE READER💀🤫-shell-v2';
 const APP_SHELL = ['/', '/index.html', '/manifest.webmanifest'];
 
 self.addEventListener('install', (event) => {

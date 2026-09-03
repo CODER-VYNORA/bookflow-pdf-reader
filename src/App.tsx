@@ -152,7 +152,7 @@ export default function App() {
             B
           </div>
           <div>
-            <h1 className="text-lg font-bold tracking-tight text-slate-900 leading-none">BookFlow</h1>
+            <h1 className="text-lg font-bold tracking-tight text-slate-900 leading-none">DINU RAATO KE READER💀🤫</h1>
             <span className="text-[10px] text-slate-400 font-medium">PDF Reader</span>
           </div>
         </div>
@@ -255,7 +255,7 @@ export default function App() {
               onClick={handleInstallApp}
               className="w-full py-2 bg-white text-slate-800 border border-slate-300 rounded-lg font-semibold hover:bg-slate-50 text-sm transition-colors"
             >
-              Install BookFlow App
+              Install DINU RAATO KE READER💀🤫 App
             </button>
           )}
           <button
